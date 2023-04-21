@@ -18,3 +18,10 @@
   }
 
   funtion_name1 123 xyz
+
+
+   if [ "${app_user}" -ne "roboshop"]; then
+        useradd ${app_user}
+        else
+        exit
+      fi
