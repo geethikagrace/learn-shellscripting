@@ -19,7 +19,7 @@
 
   funtion_name1 123 xyz
 
-
+  id ${app_}
    if [ "${app_user}" -ne "roboshop"]; then
         useradd ${app_user}
         else
