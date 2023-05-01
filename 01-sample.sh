@@ -1,10 +1,8 @@
 ls -l
 
+uname -a
+
 yum list installed
-
- ls -al
-
- yum list available
 
 
 
